@@ -1,0 +1,47 @@
+$grey-light: #E7E7E7;
+
+.header--mobile{
+ display: inline-block;
+ position: fixed;
+ background-color: white;
+ padding: 2px 22px;
+ width: 100%;
+ top: 0;
+ border-bottom: 1px solid $grey-light;
+
+ .header__nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-right: 24px;
+
+ .header__buttons--mobile{
+ .btn-icon{
+ 
+ }
+  }
+ }
+}
+
+.header__nav-links {
+ display: flex;
+ flex-direction: column;
+ padding: 80px 20px;
+
+ .nav__link--moblie{
+ display: flex;
+ justify-content: space-between;
+ padding: 24px 0;
+ }
+
+}
+
+.nav-menu--mobile{
+ position: fixed;
+ top: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: white;
+ z-index: 10;
+
+}
